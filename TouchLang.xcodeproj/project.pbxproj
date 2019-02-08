@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E57D4BB38DF9546B9EE3352 /* libPods-TouchLang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC07BB0E6C32FADC62B6F3A /* libPods-TouchLang.a */; };
+		D3BAE20D21E37AFF009DE3AD /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D3CC6B50220D99F50027544E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CC6B4F220D99F50027544E /* main.swift */; };
+		D3CC6B56220DA99E0027544E /* TouchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31C2AC122047FFF00526897 /* TouchBarController.swift */; };
+		D3CC6B57220DAA920027544E /* TouchBarItemsIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34BCDC92167AAAA002196E6 /* TouchBarItemsIdentifiers.swift */; };
+		D3CC6B59220DAAD70027544E /* LanguageChangeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CC6B58220DAAD70027544E /* LanguageChangeObserver.swift */; };
+		D3CC6B5A220DABDD0027544E /* DFRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BAE20921E3778C009DE3AD /* DFRFoundation.framework */; };
+		D3CC6B5C220DAC600027544E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E4B59D215B8C4800F7F208 /* Assets.xcassets */; };
+		D3CC6B5D220DAD590027544E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E4B59D215B8C4800F7F208 /* Assets.xcassets */; };
+		D3CC6B62220DB3140027544E /* DaemonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CC6B61220DB3140027544E /* DaemonManager.swift */; };
+		D3CC6B63220DB3720027544E /* DaemonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CC6B61220DB3140027544E /* DaemonManager.swift */; };
+		D3CC6B66220DB9840027544E /* TouchLangDaemon in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3CC6B4D220D99F50027544E /* TouchLangDaemon */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D3E4B59A215B8C4700F7F208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4B599215B8C4700F7F208 /* AppDelegate.swift */; };
+		D3E4B59C215B8C4700F7F208 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4B59B215B8C4700F7F208 /* ViewController.swift */; };
+		D3E4B5A1215B8C4800F7F208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E4B59F215B8C4800F7F208 /* Main.storyboard */; };
+		D3E4B5AC215B935300F7F208 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4B5AB215B935300F7F208 /* WindowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3CC6B54220DA9050027544E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3E4B58E215B8C4600F7F208 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3CC6B4C220D99F50027544E;
+			remoteInfo = TouchLangDaemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3BAE20E21E37AFF009DE3AD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D3BAE20D21E37AFF009DE3AD /* (null) in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CC6B4B220D99F50027544E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D3CC6B65220DB97E0027544E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				D3CC6B66220DB9840027544E /* TouchLangDaemon in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0498543CCEB078C5F158445E /* Pods-TouchLang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchLang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouchLang/Pods-TouchLang.debug.xcconfig"; sourceTree = "<group>"; };
+		0DC07BB0E6C32FADC62B6F3A /* libPods-TouchLang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87031FEAAF0832D091FCBBCD /* Pods-TouchLang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchLang.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouchLang/Pods-TouchLang.release.xcconfig"; sourceTree = "<group>"; };
+		D31C2AC122047FFF00526897 /* TouchBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarController.swift; sourceTree = "<group>"; };
+		D34BCDC221679A58002196E6 /* TouchLang-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchLang-Bridging-Header.h"; sourceTree = "<group>"; };
+		D34BCDC321679A58002196E6 /* TouchBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchBridge.h; sourceTree = "<group>"; };
+		D34BCDC92167AAAA002196E6 /* TouchBarItemsIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarItemsIdentifiers.swift; sourceTree = "<group>"; };
+		D3A33AF8215BB1B7002DA90E /* TouchLang copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TouchLang copy-Info.plist"; path = "/Users/genius/Documents/projects/macos/TouchLang/TouchLang copy-Info.plist"; sourceTree = "<absolute>"; };
+		D3BAE20921E3778C009DE3AD /* DFRFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DFRFoundation.framework; sourceTree = "<group>"; };
+		D3CC6B4D220D99F50027544E /* TouchLangDaemon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TouchLangDaemon; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CC6B4F220D99F50027544E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D3CC6B58220DAAD70027544E /* LanguageChangeObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageChangeObserver.swift; sourceTree = "<group>"; };
+		D3CC6B61220DB3140027544E /* DaemonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaemonManager.swift; sourceTree = "<group>"; };
+		D3E4B596215B8C4700F7F208 /* TouchLang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchLang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E4B599215B8C4700F7F208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3E4B59B215B8C4700F7F208 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3E4B59D215B8C4800F7F208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3E4B5A0215B8C4800F7F208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3E4B5A2215B8C4800F7F208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E4B5A3215B8C4800F7F208 /* TouchLang.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TouchLang.entitlements; sourceTree = "<group>"; };
+		D3E4B5AB215B935300F7F208 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3CC6B4A220D99F50027544E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CC6B5A220DABDD0027544E /* DFRFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E4B593215B8C4600F7F208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E57D4BB38DF9546B9EE3352 /* libPods-TouchLang.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260043B87334F2024F53CC2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0498543CCEB078C5F158445E /* Pods-TouchLang.debug.xcconfig */,
+				87031FEAAF0832D091FCBBCD /* Pods-TouchLang.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D34BCDC121679A1A002196E6 /* govno */ = {
+			isa = PBXGroup;
+			children = (
+				D34BCDC321679A58002196E6 /* TouchBridge.h */,
+				D34BCDC221679A58002196E6 /* TouchLang-Bridging-Header.h */,
+			);
+			path = govno;
+			sourceTree = "<group>";
+		};
+		D34BCDC62167A790002196E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3BAE20921E3778C009DE3AD /* DFRFoundation.framework */,
+				0DC07BB0E6C32FADC62B6F3A /* libPods-TouchLang.a */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3CC6B4E220D99F50027544E /* TouchLangDaemon */ = {
+			isa = PBXGroup;
+			children = (
+				D34BCDC92167AAAA002196E6 /* TouchBarItemsIdentifiers.swift */,
+				D31C2AC122047FFF00526897 /* TouchBarController.swift */,
+				D3CC6B4F220D99F50027544E /* main.swift */,
+				D3E4B59D215B8C4800F7F208 /* Assets.xcassets */,
+				D3CC6B58220DAAD70027544E /* LanguageChangeObserver.swift */,
+				D3CC6B61220DB3140027544E /* DaemonManager.swift */,
+			);
+			path = TouchLangDaemon;
+			sourceTree = "<group>";
+		};
+		D3E4B58D215B8C4600F7F208 = {
+			isa = PBXGroup;
+			children = (
+				D3E4B598215B8C4700F7F208 /* TouchLang */,
+				D3CC6B4E220D99F50027544E /* TouchLangDaemon */,
+				D34BCDC62167A790002196E6 /* Frameworks */,
+				D3E4B597215B8C4700F7F208 /* Products */,
+				D3A33AF8215BB1B7002DA90E /* TouchLang copy-Info.plist */,
+				260043B87334F2024F53CC2E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D3E4B597215B8C4700F7F208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4B596215B8C4700F7F208 /* TouchLang.app */,
+				D3CC6B4D220D99F50027544E /* TouchLangDaemon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3E4B598215B8C4700F7F208 /* TouchLang */ = {
+			isa = PBXGroup;
+			children = (
+				D34BCDC121679A1A002196E6 /* govno */,
+				D3E4B599215B8C4700F7F208 /* AppDelegate.swift */,
+				D3E4B59B215B8C4700F7F208 /* ViewController.swift */,
+				D3E4B59F215B8C4800F7F208 /* Main.storyboard */,
+				D3E4B5A2215B8C4800F7F208 /* Info.plist */,
+				D3E4B5A3215B8C4800F7F208 /* TouchLang.entitlements */,
+				D3E4B5AB215B935300F7F208 /* WindowController.swift */,
+			);
+			path = TouchLang;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3CC6B4C220D99F50027544E /* TouchLangDaemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CC6B53220D99F50027544E /* Build configuration list for PBXNativeTarget "TouchLangDaemon" */;
+			buildPhases = (
+				D3CC6B49220D99F50027544E /* Sources */,
+				D3CC6B4A220D99F50027544E /* Frameworks */,
+				D3CC6B4B220D99F50027544E /* CopyFiles */,
+				D3CC6B5B220DABF80027544E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchLangDaemon;
+			productName = TouchLangDaemon;
+			productReference = D3CC6B4D220D99F50027544E /* TouchLangDaemon */;
+			productType = "com.apple.product-type.tool";
+		};
+		D3E4B595215B8C4600F7F208 /* TouchLang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E4B5A6215B8C4800F7F208 /* Build configuration list for PBXNativeTarget "TouchLang" */;
+			buildPhases = (
+				0E49B8CCDAFA67BF9657A222 /* [CP] Check Pods Manifest.lock */,
+				D3E4B592215B8C4600F7F208 /* Sources */,
+				D3E4B593215B8C4600F7F208 /* Frameworks */,
+				D3E4B594215B8C4600F7F208 /* Resources */,
+				D3BAE20E21E37AFF009DE3AD /* Embed Frameworks */,
+				336F774C86CB1D25BC1FCDCF /* [CP] Copy Pods Resources */,
+				D3CC6B65220DB97E0027544E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3CC6B55220DA9050027544E /* PBXTargetDependency */,
+			);
+			name = TouchLang;
+			productName = TouchLang;
+			productReference = D3E4B596215B8C4700F7F208 /* TouchLang.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3E4B58E215B8C4600F7F208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Виктор Лиханов";
+				TargetAttributes = {
+					D3CC6B4C220D99F50027544E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D3E4B595215B8C4600F7F208 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = D3E4B591215B8C4600F7F208 /* Build configuration list for PBXProject "TouchLang" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3E4B58D215B8C4600F7F208;
+			productRefGroup = D3E4B597215B8C4700F7F208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3E4B595215B8C4600F7F208 /* TouchLang */,
+				D3CC6B4C220D99F50027544E /* TouchLangDaemon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3CC6B5B220DABF80027544E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CC6B5C220DAC600027544E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E4B594215B8C4600F7F208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E4B5A1215B8C4800F7F208 /* Main.storyboard in Resources */,
+				D3CC6B5D220DAD590027544E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E49B8CCDAFA67BF9657A222 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TouchLang-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		336F774C86CB1D25BC1FCDCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TouchLang/Pods-TouchLang-resources.sh",
+				"${PODS_ROOT}/FlagKit/Assets/FlagKit.xcassets",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TouchLang/Pods-TouchLang-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3CC6B49220D99F50027544E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CC6B50220D99F50027544E /* main.swift in Sources */,
+				D3CC6B59220DAAD70027544E /* LanguageChangeObserver.swift in Sources */,
+				D3CC6B56220DA99E0027544E /* TouchBarController.swift in Sources */,
+				D3CC6B62220DB3140027544E /* DaemonManager.swift in Sources */,
+				D3CC6B57220DAA920027544E /* TouchBarItemsIdentifiers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E4B592215B8C4600F7F208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E4B59C215B8C4700F7F208 /* ViewController.swift in Sources */,
+				D3E4B5AC215B935300F7F208 /* WindowController.swift in Sources */,
+				D3E4B59A215B8C4700F7F208 /* AppDelegate.swift in Sources */,
+				D3CC6B63220DB3720027544E /* DaemonManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3CC6B55220DA9050027544E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3CC6B4C220D99F50027544E /* TouchLangDaemon */;
+			targetProxy = D3CC6B54220DA9050027544E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3E4B59F215B8C4800F7F208 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E4B5A0215B8C4800F7F208 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3CC6B51220D99F50027544E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28G28GY6MC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TouchLang/Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = genius.TouchLang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		D3CC6B52220D99F50027544E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28G28GY6MC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TouchLang/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = genius.TouchLang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		D3E4B5A4215B8C4800F7F208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchLang/govno/TouchLang-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3E4B5A5215B8C4800F7F208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchLang/govno/TouchLang-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D3E4B5A7215B8C4800F7F208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0498543CCEB078C5F158445E /* Pods-TouchLang.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TouchLang/TouchLang.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 28G28GY6MC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = TouchLang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/../Frameworks",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = genius.TouchLang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchLang/govno/TouchLang-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		D3E4B5A8215B8C4800F7F208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87031FEAAF0832D091FCBBCD /* Pods-TouchLang.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TouchLang/TouchLang.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 28G28GY6MC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = TouchLang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/../Frameworks",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = genius.TouchLang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchLang/govno/TouchLang-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3CC6B53220D99F50027544E /* Build configuration list for PBXNativeTarget "TouchLangDaemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CC6B51220D99F50027544E /* Debug */,
+				D3CC6B52220D99F50027544E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E4B591215B8C4600F7F208 /* Build configuration list for PBXProject "TouchLang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E4B5A4215B8C4800F7F208 /* Debug */,
+				D3E4B5A5215B8C4800F7F208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E4B5A6215B8C4800F7F208 /* Build configuration list for PBXNativeTarget "TouchLang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E4B5A7215B8C4800F7F208 /* Debug */,
+				D3E4B5A8215B8C4800F7F208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3E4B58E215B8C4600F7F208 /* Project object */;
+}

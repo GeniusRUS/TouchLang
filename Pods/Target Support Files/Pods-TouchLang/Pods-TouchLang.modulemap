@@ -1,0 +1,6 @@
+module Pods_TouchLang {
+  umbrella header "Pods-TouchLang-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45253A8A33BA1E5F9322F009C9DAA285 /* Pods-TouchLang-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C16794A7EE038B2E55E44A58619E2D /* Pods-TouchLang-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7FF8CBD73A444B484E1E1A460F0A4E72 /* FlagKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB47D092DA8F987DFF3414CF185B17F /* FlagKit-dummy.m */; };
+		843D20C2B8B94A650AC67CDF9060556B /* FlagKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2180040C9B618963D381A1FE1F008CA /* FlagKit.swift */; };
+		89230766D3E1032F36CF3619F69909AD /* FlagKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F38171EE7CD4740B260D18CA01AD4782 /* FlagKit-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94D213524CB5A638A4E9BC066434CC9C /* Pods-TouchLang-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82290152512BE908DED195FAFAC035AA /* Pods-TouchLang-dummy.m */; };
+		AAA592D77246D5E7A108A6578BF48AA5 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C644A763037C6DD7F289C726EACA8B02 /* NSImage.swift */; };
+		B16B6EF078EE75ADBC14F38FCA81E250 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF76218DD1B31ABEB0097CFE30CE0E9 /* Flag.swift */; };
+		C235BCB3FC4CDCDFD074BDCABA2DE9D1 /* FlagStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F02C8D62AA32631DD69926C59EBBB3 /* FlagStyle.swift */; };
+		E0594D94C96AAAA55E2FA27FEEB106EB /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3F9B796A23FEDCB02C7CCA13CDCB1B /* UIImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDCA3BCB1ABEF941AD2A8C1C54F7839D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EF81B2BBEE0D812D877D3B50E7E55FF;
+			remoteInfo = FlagKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19C833FC2C6258C0B957102005999E42 /* FlagKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = FlagKit.modulemap; path = ../../Headers/Public/FlagKit/FlagKit.modulemap; sourceTree = "<group>"; };
+		1FB4FEB018B330425F86B7E816144211 /* libFlagKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFlagKit.a; path = libFlagKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C16794A7EE038B2E55E44A58619E2D /* Pods-TouchLang-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLang-umbrella.h"; sourceTree = "<group>"; };
+		2BFC2117DA6D021E6C49740014B7FB5D /* libPods-TouchLang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TouchLang.a"; path = "libPods-TouchLang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4816373D74408FB42821CFDB470F1BA5 /* Pods-TouchLang-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouchLang-acknowledgements.plist"; sourceTree = "<group>"; };
+		5066893E21D472F8C39B59DF2983417D /* Pods-TouchLang-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchLang-frameworks.sh"; sourceTree = "<group>"; };
+		80C82A662B20C98A67D79B2C0AD01577 /* FlagKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagKit.xcconfig; sourceTree = "<group>"; };
+		82290152512BE908DED195FAFAC035AA /* Pods-TouchLang-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLang-dummy.m"; sourceTree = "<group>"; };
+		8E3F9B796A23FEDCB02C7CCA13CDCB1B /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Sources/Swift/FlagKit/UIImage.swift; sourceTree = "<group>"; };
+		918B0E880B394AC5716252FD0E133165 /* FlagKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagKit-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A41A545BBAEB900F17DCF22AEE14C2F2 /* Pods-TouchLang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLang.release.xcconfig"; sourceTree = "<group>"; };
+		ADB47D092DA8F987DFF3414CF185B17F /* FlagKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlagKit-dummy.m"; sourceTree = "<group>"; };
+		AEF76218DD1B31ABEB0097CFE30CE0E9 /* Flag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flag.swift; path = Sources/Swift/FlagKit/Flag.swift; sourceTree = "<group>"; };
+		BD1F2A5E82854AFBE8003566518E5C97 /* FlagKit.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = FlagKit.xcassets; path = Assets/FlagKit.xcassets; sourceTree = "<group>"; };
+		BE8BC860D93062D654739163189D3F45 /* Pods-TouchLang.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TouchLang.modulemap"; sourceTree = "<group>"; };
+		C644A763037C6DD7F289C726EACA8B02 /* NSImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSImage.swift; path = Sources/Swift/FlagKit/NSImage.swift; sourceTree = "<group>"; };
+		CD960B2F6D2BB0548850D53A08B234D1 /* Pods-TouchLang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLang.debug.xcconfig"; sourceTree = "<group>"; };
+		DD4732789596B2684763750FFF61BC13 /* Pods-TouchLang-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchLang-resources.sh"; sourceTree = "<group>"; };
+		E8F02C8D62AA32631DD69926C59EBBB3 /* FlagStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagStyle.swift; path = Sources/Swift/FlagKit/FlagStyle.swift; sourceTree = "<group>"; };
+		F2180040C9B618963D381A1FE1F008CA /* FlagKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagKit.swift; path = Sources/Swift/FlagKit/FlagKit.swift; sourceTree = "<group>"; };
+		F38171EE7CD4740B260D18CA01AD4782 /* FlagKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FlagKit-umbrella.h"; path = "../../Headers/Public/FlagKit/FlagKit-umbrella.h"; sourceTree = "<group>"; };
+		F5505D8EB183BD5911112EC64C122820 /* Pods-TouchLang-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouchLang-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C63CA61A5E7695883EFC94A48C880A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE81F8D99F5FAEB91A886C2BC8CC8084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A8FE88E4CEE7E2DCEF971B697D6B98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20EFD5728AA2F0594A506B8DB5EE68F4 /* FlagKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0CDB75859F65C61D7E0A37B9B20D7138 /* Pods-TouchLang */ = {
+			isa = PBXGroup;
+			children = (
+				BE8BC860D93062D654739163189D3F45 /* Pods-TouchLang.modulemap */,
+				F5505D8EB183BD5911112EC64C122820 /* Pods-TouchLang-acknowledgements.markdown */,
+				4816373D74408FB42821CFDB470F1BA5 /* Pods-TouchLang-acknowledgements.plist */,
+				82290152512BE908DED195FAFAC035AA /* Pods-TouchLang-dummy.m */,
+				5066893E21D472F8C39B59DF2983417D /* Pods-TouchLang-frameworks.sh */,
+				DD4732789596B2684763750FFF61BC13 /* Pods-TouchLang-resources.sh */,
+				25C16794A7EE038B2E55E44A58619E2D /* Pods-TouchLang-umbrella.h */,
+				CD960B2F6D2BB0548850D53A08B234D1 /* Pods-TouchLang.debug.xcconfig */,
+				A41A545BBAEB900F17DCF22AEE14C2F2 /* Pods-TouchLang.release.xcconfig */,
+			);
+			name = "Pods-TouchLang";
+			path = "Target Support Files/Pods-TouchLang";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20EFD5728AA2F0594A506B8DB5EE68F4 /* FlagKit */ = {
+			isa = PBXGroup;
+			children = (
+				AEF76218DD1B31ABEB0097CFE30CE0E9 /* Flag.swift */,
+				F2180040C9B618963D381A1FE1F008CA /* FlagKit.swift */,
+				E8F02C8D62AA32631DD69926C59EBBB3 /* FlagStyle.swift */,
+				C644A763037C6DD7F289C726EACA8B02 /* NSImage.swift */,
+				8E3F9B796A23FEDCB02C7CCA13CDCB1B /* UIImage.swift */,
+				CD4052C4DD245F21A54A5662D3C94F55 /* Resources */,
+				D8BF7E75835E6C264953BC68D85EC03B /* Support Files */,
+			);
+			name = FlagKit;
+			path = FlagKit;
+			sourceTree = "<group>";
+		};
+		74479915A30E8C6C1432589F394BDC06 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CDB75859F65C61D7E0A37B9B20D7138 /* Pods-TouchLang */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				03A8FE88E4CEE7E2DCEF971B697D6B98 /* Pods */,
+				9A2E373B71C5E9477BBDE147AC9BE228 /* Products */,
+				74479915A30E8C6C1432589F394BDC06 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A2E373B71C5E9477BBDE147AC9BE228 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FB4FEB018B330425F86B7E816144211 /* libFlagKit.a */,
+				2BFC2117DA6D021E6C49740014B7FB5D /* libPods-TouchLang.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD4052C4DD245F21A54A5662D3C94F55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F2A5E82854AFBE8003566518E5C97 /* FlagKit.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D8BF7E75835E6C264953BC68D85EC03B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19C833FC2C6258C0B957102005999E42 /* FlagKit.modulemap */,
+				80C82A662B20C98A67D79B2C0AD01577 /* FlagKit.xcconfig */,
+				ADB47D092DA8F987DFF3414CF185B17F /* FlagKit-dummy.m */,
+				918B0E880B394AC5716252FD0E133165 /* FlagKit-prefix.pch */,
+				F38171EE7CD4740B260D18CA01AD4782 /* FlagKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlagKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A92E37CF23685845435848AC3496AE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89230766D3E1032F36CF3619F69909AD /* FlagKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC59953C4013CD2FF1D9ECAA0C5ED12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45253A8A33BA1E5F9322F009C9DAA285 /* Pods-TouchLang-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0EF81B2BBEE0D812D877D3B50E7E55FF /* FlagKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0317D6CD86B0DD7DAC1D2949D6889F4F /* Build configuration list for PBXNativeTarget "FlagKit" */;
+			buildPhases = (
+				C35BD7A19548A6B22BEFCEB217D6066D /* Sources */,
+				DE81F8D99F5FAEB91A886C2BC8CC8084 /* Frameworks */,
+				0A92E37CF23685845435848AC3496AE1 /* Headers */,
+				797ED1908363E4C189EDF052F437B777 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlagKit;
+			productName = FlagKit;
+			productReference = 1FB4FEB018B330425F86B7E816144211 /* libFlagKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5889DB5307A3C0314D51BEFAD3BF08E8 /* Pods-TouchLang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCD22768A9A7059699684E2EA500A2C /* Build configuration list for PBXNativeTarget "Pods-TouchLang" */;
+			buildPhases = (
+				E470C9F13E658DC3922934DC16445674 /* Sources */,
+				C63CA61A5E7695883EFC94A48C880A7B /* Frameworks */,
+				FDC59953C4013CD2FF1D9ECAA0C5ED12 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E586751B76FBD4F482804CFC57F2B3BD /* PBXTargetDependency */,
+			);
+			name = "Pods-TouchLang";
+			productName = "Pods-TouchLang";
+			productReference = 2BFC2117DA6D021E6C49740014B7FB5D /* libPods-TouchLang.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9A2E373B71C5E9477BBDE147AC9BE228 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EF81B2BBEE0D812D877D3B50E7E55FF /* FlagKit */,
+				5889DB5307A3C0314D51BEFAD3BF08E8 /* Pods-TouchLang */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		797ED1908363E4C189EDF052F437B777 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/FlagKit/FlagKit.modulemap",
+				"${PODS_ROOT}/Headers/Public/FlagKit/FlagKit-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/FlagKit-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FlagKit/FlagKit.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FlagKit/FlagKit-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C35BD7A19548A6B22BEFCEB217D6066D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16B6EF078EE75ADBC14F38FCA81E250 /* Flag.swift in Sources */,
+				7FF8CBD73A444B484E1E1A460F0A4E72 /* FlagKit-dummy.m in Sources */,
+				843D20C2B8B94A650AC67CDF9060556B /* FlagKit.swift in Sources */,
+				C235BCB3FC4CDCDFD074BDCABA2DE9D1 /* FlagStyle.swift in Sources */,
+				AAA592D77246D5E7A108A6578BF48AA5 /* NSImage.swift in Sources */,
+				E0594D94C96AAAA55E2FA27FEEB106EB /* UIImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E470C9F13E658DC3922934DC16445674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D213524CB5A638A4E9BC066434CC9C /* Pods-TouchLang-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E586751B76FBD4F482804CFC57F2B3BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlagKit;
+			target = 0EF81B2BBEE0D812D877D3B50E7E55FF /* FlagKit */;
+			targetProxy = BDCA3BCB1ABEF941AD2A8C1C54F7839D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C319FE8FEF78C160E1BFEB270E25F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		453A9DB02B336845D9111D0C313E53B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41A545BBAEB900F17DCF22AEE14C2F2 /* Pods-TouchLang.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouchLang/Pods-TouchLang.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		822B7102BBE44F4B911960928BE7992D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A9C59F7682008F715A01C400476F0081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD960B2F6D2BB0548850D53A08B234D1 /* Pods-TouchLang.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouchLang/Pods-TouchLang.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2951C5E8DAD44CB1CA2CDA6F8C43DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C82A662B20C98A67D79B2C0AD01577 /* FlagKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/FlagKit/FlagKit-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = Headers/Public/FlagKit/FlagKit.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FlagKit;
+				PRODUCT_NAME = FlagKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		FFE9B3556DDE3EF7F4538528E379F6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C82A662B20C98A67D79B2C0AD01577 /* FlagKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/FlagKit/FlagKit-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = Headers/Public/FlagKit/FlagKit.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FlagKit;
+				PRODUCT_NAME = FlagKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0317D6CD86B0DD7DAC1D2949D6889F4F /* Build configuration list for PBXNativeTarget "FlagKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2951C5E8DAD44CB1CA2CDA6F8C43DCB /* Debug */,
+				FFE9B3556DDE3EF7F4538528E379F6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822B7102BBE44F4B911960928BE7992D /* Debug */,
+				1C319FE8FEF78C160E1BFEB270E25F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCD22768A9A7059699684E2EA500A2C /* Build configuration list for PBXNativeTarget "Pods-TouchLang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C59F7682008F715A01C400476F0081 /* Debug */,
+				453A9DB02B336845D9111D0C313E53B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
